@@ -13,7 +13,7 @@ body {
 body:before {
 	content: "";
 	position: fixed;
-	background-image: url("https://storage.googleapis.com/fw_saw/images/fondo-login.png") !important;
+	background-image: url("images/fondo-login.png") !important;
 	background-size: cover;
 	z-index: -1;
 	height: 100%;
@@ -35,7 +35,7 @@ body:before {
 	padding: 0;
 }
 #login h1 a {
-	background-image: url("https://storage.googleapis.com/fw_saw/images/logo_login.png") !important;
+	background-image: url("images/logo_login.png") !important;
 	width: 298px;
 	background-size: 300px;
 	height: 90px;
