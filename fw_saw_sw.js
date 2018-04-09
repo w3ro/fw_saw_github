@@ -4,13 +4,13 @@ var cacheVersion = 1;
 var currentCache = {
   offline: 'offline-cache' + cacheVersion
 };
-const offlineUrl = 'https://storage.googleapis.com/fw_saw/offline.html';
+const offlineUrl = 'offline.html';
 
 this.addEventListener('install', event => {
   event.waitUntil(
     caches.open(currentCache.offline).then(function(cache) {
       return cache.addAll([
-          'https://storage.googleapis.com/fw_saw/images/offline.svg',
+          'images/offline.svg',
           offlineUrl
       ]);
     })

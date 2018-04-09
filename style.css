@@ -1,8 +1,8 @@
 /* Hoja de estilo maestra para el Framework de sitios y aplicaciones web */
-@import url("https://storage.googleapis.com/fw_saw/css/animate.min.css");
-@import url("https://storage.googleapis.com/fw_saw/css/style-fonts.min.css");
-@import url("https://storage.googleapis.com/fw_saw/css/style-fonts2.min.css");
-@import url('https://storage.googleapis.com/fw_saw/css/open-sans.min.css');
+@import url("css/animate.min.css");
+@import url("css/style-fonts.min.css");
+@import url("css/style-fonts2.min.css");
+@import url('css/open-sans.min.css');
 /* Inicio de estilos del pie de página */
 .footer {
 	background-color: #2A2A2A;
