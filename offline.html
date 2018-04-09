@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Error 403</title>
+</head>
+
+<body>
+<div class="display"></div>
+<div class="row">
+<div class="medium-10 large-8 small-centered columns">
+  <div class="panel callin">
+    <h1><a>Fuera de línea</a></h1>
+    <h3>No se puede acceder a la página</h3>
+    <hr class="hrheader">
+    <p>Por favor, intentalo de nuevo más tarde.</p>
+    <p><button type="button" class="button">Volver a intentar</button></p>
+    <div class="row">
+      <div class="medium-6 large-8 columns">
+        <figure> <img src="https://storage.googleapis.com/fw_saw/images/offline.svg" alt="Migrando a Sekkan"> </figure>
+      </div>
+      <div class="medium-6 large-4 columns">
+        <h3>Otras opciones:</h3>
+        <hr class="hrheader">
+        <ul>
+          <li><a href="index.html">Regresar al Inicio</a> </li>
+          <li><a href="http://www.google.com" target="_blank">Buscar en Google</a> </li>
+          <li><a href="javascript:history.back();">Volver a la página anterior</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+        (function() {
+            var button = document.querySelector('.button');
+            if ( button != null ) {
+                button.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    window.location.reload();
+                }, false);
+            }
+        })();
+</script>
+<!-- Inicio de Script --> 
+<script src="fw_saw.js"></script> 
+<!-- Fin de Script -->
+</body>
+</html>

@@ -1,0 +1,210 @@
+/* Hoja de estilo maestra para el Framework de sitios y aplicaciones web */
+@import url("https://storage.googleapis.com/fw_saw/css/animate.min.css");
+@import url("https://storage.googleapis.com/fw_saw/css/style-fonts.min.css");
+@import url("https://storage.googleapis.com/fw_saw/css/style-fonts2.min.css");
+@import url('https://storage.googleapis.com/fw_saw/css/open-sans.min.css');
+/* Inicio de estilos del pie de página */
+.footer {
+	background-color: #2A2A2A;
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 2rem 0 0 0;
+}
+.footer .contact {
+	list-style-type: none;
+	margin: 0;
+	text-align: left;
+	color: #fff;
+}
+.footer .social {
+	text-align: left;
+	margin: 0;
+}
+.footer .inline-list a {
+	display: inline-block;
+	width: 2rem;
+	border-radius: 2px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+.footer .contact {
+	text-align: left;
+	font-size: 12px;
+}
+.footer .contact li p {
+	padding-left: 0rem;
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+.footer .about {
+	color: #fff;
+	font-size: 12px;
+	margin: 0 0 1rem 0;
+}
+ul.contact li p i {
+	font-size: 12px!important;
+}
+.footer .contact li {
+	margin-bottom: 0;
+}
+.footer h1 {
+	color: #fff;
+	font-size: 1rem;
+	text-align: left;
+}
+ul.inline-list.social a i {
+	font-size: 18px;
+}
+.footer ul.menu li {
+	list-style: none;
+	float: left;
+	color: #fff;
+}
+.footer ul.menu li a {
+	font-weight: normal;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+.footer ul.menu li::after {
+	content: "•";
+	padding: 0px 0.2rem 0px 0.4rem;
+}
+.footer ul.menu li:last-child::after {
+	content: "";
+	padding: 0 0.4rem 0 0.8rem;
+}
+.footer ul.menu li a:hover, .footer ul.menu li a:focus {
+	color: #92999f;
+}
+/* Fin de estilos del pie de página */
+/* Inicio de estilos de barra de navegación */
+.logo {
+	max-width: 21rem;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-left: 0.9375rem;
+	font-size: 0.8125rem;
+	color: #FFFFFF;
+}
+@media only screen and (min-width: 40.0625em) {
+.logo {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	padding-left: 0.9375rem;
+	font-size: 0.8125rem;
+	color: #FFFFFF;
+}
+.top-bar {
+	text-align: center;
+}
+.top-bar-section ul {
+	display: inline-block!important;
+}
+.top-bar-section ul.center-buttons li:last-child {
+	border-right: solid 1px #ccc;
+}
+}
+.menu-icon {
+	padding-top: 1.2rem;
+}
+/* Fin de estilos de barra de navegación */
+/* Inicio estilos icono vínculo externo */
+a.button.expand.medium > i.icon-open_in_new.blank {
+	font-size: 1rem;
+}
+a > i.icon-open_in_new.blank {
+	font-size: 14px;
+}
+a.ls-l > p > i.icon-open_in_new.blank {
+	font-size: 16px;
+}
+/* Fin estilos icono vínculo externo */
+/*Inicio estilos breadcrumbs*/
+.breadcrumbs {
+	border: none!important;
+	display: block;
+	list-style: none;
+	margin: 0 0 12px !important;
+	overflow: hidden;
+	padding: 0.5625rem 0.875rem 0.5625rem;
+	background-color: #fff;
+}
+/*Fin estilos breadcrumbs*/
+/*Inicio de estilo del separador hr*/
+hr {
+	margin: 20px 60px;
+	border-top: 1px dotted #DDDDDD;
+}
+hr.hrheader {
+	margin: 30px 0;
+	border-top: solid 1px #DDDDDD;
+	position: relative;
+}
+hr.hrheader:before {
+	content: " "
+}
+hr.hrheader:before {
+	width: 70px;
+	height: 3px;
+	background-color: #008CBA;
+	position: absolute;
+}
+/*Fin de estilo del separador hr*/
+/*Inicio de estilos de cabeceras*/
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 1rem;
+}
+/*Fin de estilos de cabeceras*/
+/*Inicio de estilos panel callin*/
+.panel.callin {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d8d8d8;
+	margin-bottom: 1.25rem;
+	padding: 1.25rem;
+	background: #ffffff;
+	color: #333;
+}
+.display {
+	margin-bottom: 15px;
+}
+/*Fin de estilos panel callin*/
+/*Otros*/
+.top-bar-section ul.center-buttons li > ul.dropdown li {
+	border: none;
+}
+ul#menu-inferior.menu {
+	margin-left: 0;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+ @media only screen and (min-width: 40.0625em) {
+.contain-to-grid .top-bar {
+	max-width: 100%!important;
+}
+}
+.row {
+	max-width: 75rem;
+	margin-right: auto!important;
+	margin-left: auto!important;
+}
+.top-bar-section ul.center-buttons li {
+	border-left: solid 1px #ccc;
+}
+.menu-inferior-container {
+	margin-bottom: 40px;
+}
+.right-off-canvas-menu {
+	background: #555555!important;
+	overflow-y: auto!important;
+}
+aside.right-off-canvas-menu div.panel {
+	margin-bottom: 0.05rem!important;
+	padding: 1.25rem 0!important;
+}
+table caption {
+	background: #fff!important;
+}

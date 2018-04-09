@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Ejemplo de login para Intranet de la SCT (Sekkan)</title>
+</head>
+
+<body class="login">
+<div id="login">
+  <h1><a href="javascript:;" title="Bienvenidos" tabindex="-1">Ejemplo de login para Intranet de la SCT (Sekkan)</a></h1>
+  <form name="loginform" id="loginform" action="" method="post">
+    <p>
+      <label for="user_login">Nombre de usuario o dirección de correo electrónico<br />
+        <input type="text" name="log" id="user_login" class="input" value="" size="20" />
+      </label>
+    </p>
+    <p>
+      <label for="user_pass">Contraseña<br />
+        <input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
+      </label>
+    </p>
+    <p class="forgetmenot">
+      <label for="rememberme">
+        <input name="rememberme" type="checkbox" id="rememberme" value="forever"  />
+        Recuérdame</label>
+    </p>
+    <p class="submit">
+      <input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Acceder" />
+    </p>
+  </form>
+  <p id="nav"> <a href="#" id="firstModal1">¿Qué es esto?</a><br>
+    <br>
+    <a href="#" id="firstModal2" class="right">Términos de servicio</a><a href="#" id="firstModal3">Aviso de privacidad</a> </p>
+</div>
+<div class="clear"></div>
+
+<!-- Inicio de Script --> 
+<script src="https://storage.googleapis.com/fw_saw/fw_saw_login.js"></script> 
+<script>
+ const fw_saw_urlbase="https://storage.googleapis.com/fw_saw/";
+</script> 
+<!-- Fin de Script -->
+
+</body>
+</html>
