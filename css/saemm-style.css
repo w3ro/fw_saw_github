@@ -6,6 +6,11 @@ div#encabezado {
   display: none;
 }
 
+#topcontent {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 @media screen and (min-width: 1200px) {
   .sistemah1 h1 {
     font-size: initial;
