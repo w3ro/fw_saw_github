@@ -21,6 +21,6 @@ div#encabezado {
 @media screen and (min-width: 992px) {
   .sistemah1 h1 {
     font-size: 20px !important;
-    line-height: 23px;
+    line-height: 27px;
   }
 }
