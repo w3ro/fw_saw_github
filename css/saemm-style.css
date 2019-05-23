@@ -1,3 +1,11 @@
+a {
+  color: #e8222d;
+}
+
+a:hover, a:focus {
+    color: #cf1620;
+}
+
 div#encabezado {
   padding: 0;
 }
