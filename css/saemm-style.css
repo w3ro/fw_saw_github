@@ -6,6 +6,10 @@ a:hover, a:focus {
     color: #820108;
 }
 
+footer .lista li:before {
+    color: #b2000a;
+}
+
 div#encabezado {
   padding: 0;
 }
