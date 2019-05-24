@@ -10,6 +10,10 @@ footer .lista li:before {
     color: #b2000a;
 }
 
+#cuadro1, #cuadro2, #cuadro3, #cuadro4, #cuadro5, #cuadro6, #cuadro7, #cuadro8 {
+    background-color: #888888;
+}
+
 div#encabezado {
   padding: 0;
 }
